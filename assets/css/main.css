@@ -1,0 +1,396 @@
+
+div.top-image{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 200px;
+	background-image: url("../images/qtns.jpeg");
+	z-index: 1;
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	div.top-image {
+		height: 100px;
+	}
+}
+
+/*div.content{
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 140px;
+	width: 100%;
+}*/
+
+div.content-inside{
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 140px;
+	width: 100%;
+	background-color: aliceblue;
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+	div.content-inside{
+		top: 100px;
+	}
+}
+
+div.login-section{
+	overflow: auto;
+	margin: 120px auto 0 auto;
+	width: 60%;
+}
+
+div.login-section div.left{
+	float: left;
+	width: 49%;
+	border-right: 1px solid silver;
+}
+
+div.login-section div.left h3{
+	margin: 0;
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-top: 200px;
+}
+
+div.login-section div.left form{
+	padding: 0 50px 15px 15px;
+}
+
+div.login-section div.left form input{
+	display: block;
+	width: 100%;
+	padding: 10px 5px;
+	margin: 10px 0;
+}
+
+div.login-section div.left form button{
+	padding: 10px 10px;
+}
+
+div.login-section div.right{
+	float: left;
+	width: 50%;
+}
+
+div.login-section div.right h3{
+	margin: 0;
+	text-transform: uppercase;
+	padding-left: 30px;
+	padding-top: 200px;
+}
+
+div.login-section div.right form{
+	padding: 0 15px 15px 30px;
+}
+
+div.login-section div.right form input{
+	display: block;
+	width: 95%;
+	padding: 10px 5px;
+	margin: 10px 0;
+}
+
+div.login-section div.right form input[type='checkbox']{
+	width: 20px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+div.login-section div.right form .btn-login{
+	padding: 10px 10px;
+	width: 100px;
+	display: block;
+	margin-top: 10px;
+}
+
+div.login-section div.right p{
+	margin: 0 0 0 30px;
+}
+
+div.login-section div.circle{
+	position: absolute;
+	left: 48%;
+	top: 55%;
+	background-color: silver;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+div.login-section div.circle p{
+	color: white;
+	font-size: 25px;
+	padding: 10px 0 0 5px;
+	margin: 0;
+}
+
+
+div.header{
+	overflow: auto;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	border-left: 0;
+	border-right: 0;
+}
+
+
+div.header ul.left{
+	padding: 0;
+	list-style: none;
+	float: left;
+	margin: 10px 0 0 30px;
+}
+
+div.header ul li{
+	display: inline;
+	margin-left: 15px;
+	padding: 13px 10px;
+	color: black;
+}
+
+div.header ul li.logout{
+	margin-left: 1100px;
+}
+/* If the screen size is 600px or less, set the  of <div> to 6px */
+@media only screen and (max-width: 600px) {
+	div.header ul li{
+		margin-left: 0;
+	}
+}
+
+div.header ul li:hover{
+	background-color: #ddd;
+}
+
+div.header ul li a{
+	color: black;
+	font-size: 16px;
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 6px */
+@media only screen and (max-width: 600px) {
+	div.header ul li a{
+		font-size: 10px;
+	}
+}
+
+div.header ul li.active, div.header ul li.active:hover, div.header ul li.active a{
+	background-color: #4CAF50;
+	color: white;
+}
+
+div.header ul li a{
+	text-decoration: none;
+}
+
+div.header a.right{
+	float: right;
+	font-size: 1vw;
+	margin-right: 50px;
+	text-decoration: none;
+	color: black;
+	padding: 11px 10px;
+}
+
+div.header a.right:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+
+div.info{
+	margin: auto;
+	width: 90%;
+}
+
+div.post-question{
+	padding: 15px;
+}
+
+div.post-question h3{
+	margin: 0;
+	text-transform: uppercase;
+}
+
+div.post-question form input{
+	display: block;
+	width: 98%;
+	padding: 10px 5px;
+	margin: 10px 5px 5px 5px;
+}
+
+div.post-question form textarea{
+	padding: 10px 5px;
+	margin: 5px 5px;
+	width: 98%;
+	height: 100px;
+}
+
+div.post-question form button{
+	padding: 10px;
+	margin: 5px 5px;
+}
+
+div.questions{
+	background-color: white;
+	margin-bottom: 30px;
+	padding: 10px 15px 30px;
+}
+
+div.qns{
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid silver;
+}
+
+div.qns h3{
+	margin: 0 0 5px 0;
+}
+
+div.qns p{
+	margin: 0 0 5px 0;
+}
+
+div.info{
+	overflow: auto;
+}
+
+div.left-profile{
+	float: left;
+	width: 25%;
+	padding: 25px 10px;
+}
+
+div.left-profile img{
+	margin: auto auto auto 10%;
+	padding: 10px;
+	border: 1px solid silver;
+}
+
+div.left-profile p{
+	margin: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.right-profile{
+	float: left;
+	width: 70%;
+	padding: 10px;
+}
+
+div.data{
+	padding: 10px 5px;
+	text-align: center;
+}
+
+h3.ans-title{
+	text-transform: uppercase;
+}
+
+div.answers{
+	background-color: #f3f3f3;
+	padding: 10px 10px;
+}
+
+div.answers h3{
+	margin: 0;
+}
+
+div.answers .qns{
+	background-color: white;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+div.answers form textarea{
+	width: 99%;
+	height: 200px;
+}
+
+div.answers form button{
+	padding: 10px;
+	margin: 10px 0;
+}
+
+div.mirror{
+	/*position: absolute;*/
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 3;
+	width: 50%;
+	margin: 20px auto;
+	/*left: 40%;
+    top: 25px;*/
+	padding: 15px;
+	color: white;
+}
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	div.mirror {
+		width: 100%;
+	}
+}
+
+div.mirror h3{
+	margin: 0;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 10px */
+@media only screen and (max-width: 600px) {
+	div.mirror h3{
+		font-size: 10px;
+	}
+}
+
+div.mirror p{
+	text-align: center;
+	margin: 10px 0 0;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 6px */
+@media only screen and (max-width: 600px) {
+	div.mirror p{
+		font-size: 6px;
+	}
+
+	div.header ul li.logout{
+		margin-left: 0;
+	}
+
+	div.login-section {
+		width: 100%;
+	}
+
+	div.login-section div.left {
+		border: none;
+		width: 100%;
+	}
+
+	div.login-section div.right {
+		width: 100%;
+	}
+
+	div.login-section div.right form .btn-login {
+		width: auto;
+	}
+
+	div.login-section div.circle {
+		display: none;
+	}
+
+	div.login-section div.right h3,div.login-section div.right form {
+		padding-left: 15px;
+	}
+	div.login-section div.left h3,div.login-section div.right h3 {
+		padding-top: 20px;
+	}
+}
